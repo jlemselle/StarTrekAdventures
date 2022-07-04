@@ -11,7 +11,7 @@ import SwiftUI
 struct StarTrekAdventuresApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(noOfDice: 1, division: .command)
         }
     }
 }

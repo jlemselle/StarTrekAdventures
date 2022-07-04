@@ -13,10 +13,30 @@
 		1AAB8CCA2873A539008A2AC6 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */; };
 		1AAB8CCB2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */; };
 		1AAB8CCC2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */; };
-		1AAB8CCD2873A539008A2AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA42873A537008A2AC6 /* ContentView.swift */; };
-		1AAB8CCE2873A539008A2AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA42873A537008A2AC6 /* ContentView.swift */; };
 		1AAB8CCF2873A539008A2AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA52873A539008A2AC6 /* Assets.xcassets */; };
 		1AAB8CD02873A539008A2AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA52873A539008A2AC6 /* Assets.xcassets */; };
+		1ABB08B72873A5A60088BA8F /* RollGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08A92873A5A60088BA8F /* RollGenerator.swift */; };
+		1ABB08B82873A5A60088BA8F /* RollGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08A92873A5A60088BA8F /* RollGenerator.swift */; };
+		1ABB08B92873A5A60088BA8F /* RandomRollGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AA2873A5A60088BA8F /* RandomRollGenerator.swift */; };
+		1ABB08BA2873A5A60088BA8F /* RandomRollGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AA2873A5A60088BA8F /* RandomRollGenerator.swift */; };
+		1ABB08BB2873A5A60088BA8F /* ChallengeDie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AB2873A5A60088BA8F /* ChallengeDie.swift */; };
+		1ABB08BC2873A5A60088BA8F /* ChallengeDie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AB2873A5A60088BA8F /* ChallengeDie.swift */; };
+		1ABB08BD2873A5A60088BA8F /* DiceRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AD2873A5A60088BA8F /* DiceRollView.swift */; };
+		1ABB08BE2873A5A60088BA8F /* DiceRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AD2873A5A60088BA8F /* DiceRollView.swift */; };
+		1ABB08BF2873A5A60088BA8F /* DieFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AF2873A5A60088BA8F /* DieFaceView.swift */; };
+		1ABB08C02873A5A60088BA8F /* DieFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08AF2873A5A60088BA8F /* DieFaceView.swift */; };
+		1ABB08C12873A5A60088BA8F /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B02873A5A60088BA8F /* DieView.swift */; };
+		1ABB08C22873A5A60088BA8F /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B02873A5A60088BA8F /* DieView.swift */; };
+		1ABB08C32873A5A60088BA8F /* ChallengeDieResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B12873A5A60088BA8F /* ChallengeDieResultView.swift */; };
+		1ABB08C42873A5A60088BA8F /* ChallengeDieResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B12873A5A60088BA8F /* ChallengeDieResultView.swift */; };
+		1ABB08C52873A5A60088BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B22873A5A60088BA8F /* ContentView.swift */; };
+		1ABB08C62873A5A60088BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B22873A5A60088BA8F /* ContentView.swift */; };
+		1ABB08C72873A5A60088BA8F /* DiceChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B32873A5A60088BA8F /* DiceChooserView.swift */; };
+		1ABB08C82873A5A60088BA8F /* DiceChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B32873A5A60088BA8F /* DiceChooserView.swift */; };
+		1ABB08C92873A5A60088BA8F /* ChallengeDieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B52873A5A60088BA8F /* ChallengeDieResult.swift */; };
+		1ABB08CA2873A5A60088BA8F /* ChallengeDieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B52873A5A60088BA8F /* ChallengeDieResult.swift */; };
+		1ABB08CB2873A5A60088BA8F /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B62873A5A60088BA8F /* Division.swift */; };
+		1ABB08CC2873A5A60088BA8F /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB08B62873A5A60088BA8F /* Division.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTrekAdventuresApp.swift; sourceTree = "<group>"; };
-		1AAB8CA42873A537008A2AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AAB8CA52873A539008A2AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAB8CAA2873A539008A2AC6 /* StarTrekAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrekAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAB8CB02873A539008A2AC6 /* StarTrekAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrekAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +68,17 @@
 		1AAB8CC32873A539008A2AC6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAB8CC72873A539008A2AC6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1ABB08A92873A5A60088BA8F /* RollGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollGenerator.swift; sourceTree = "<group>"; };
+		1ABB08AA2873A5A60088BA8F /* RandomRollGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomRollGenerator.swift; sourceTree = "<group>"; };
+		1ABB08AB2873A5A60088BA8F /* ChallengeDie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeDie.swift; sourceTree = "<group>"; };
+		1ABB08AD2873A5A60088BA8F /* DiceRollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollView.swift; sourceTree = "<group>"; };
+		1ABB08AF2873A5A60088BA8F /* DieFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieFaceView.swift; sourceTree = "<group>"; };
+		1ABB08B02873A5A60088BA8F /* DieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
+		1ABB08B12873A5A60088BA8F /* ChallengeDieResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeDieResultView.swift; sourceTree = "<group>"; };
+		1ABB08B22873A5A60088BA8F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ABB08B32873A5A60088BA8F /* DiceChooserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceChooserView.swift; sourceTree = "<group>"; };
+		1ABB08B52873A5A60088BA8F /* ChallengeDieResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeDieResult.swift; sourceTree = "<group>"; };
+		1ABB08B62873A5A60088BA8F /* Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,10 @@
 		1AAB8CA22873A537008A2AC6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1ABB08B42873A5A60088BA8F /* Model */,
+				1ABB08A82873A5A60088BA8F /* RollGeneration */,
+				1ABB08AC2873A5A60088BA8F /* View */,
 				1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */,
-				1AAB8CA42873A537008A2AC6 /* ContentView.swift */,
 				1AAB8CA52873A539008A2AC6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +171,46 @@
 				1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1ABB08A82873A5A60088BA8F /* RollGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB08A92873A5A60088BA8F /* RollGenerator.swift */,
+				1ABB08AA2873A5A60088BA8F /* RandomRollGenerator.swift */,
+				1ABB08AB2873A5A60088BA8F /* ChallengeDie.swift */,
+			);
+			path = RollGeneration;
+			sourceTree = "<group>";
+		};
+		1ABB08AC2873A5A60088BA8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB08AD2873A5A60088BA8F /* DiceRollView.swift */,
+				1ABB08AE2873A5A60088BA8F /* DieResult */,
+				1ABB08B22873A5A60088BA8F /* ContentView.swift */,
+				1ABB08B32873A5A60088BA8F /* DiceChooserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1ABB08AE2873A5A60088BA8F /* DieResult */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB08AF2873A5A60088BA8F /* DieFaceView.swift */,
+				1ABB08B02873A5A60088BA8F /* DieView.swift */,
+				1ABB08B12873A5A60088BA8F /* ChallengeDieResultView.swift */,
+			);
+			path = DieResult;
+			sourceTree = "<group>";
+		};
+		1ABB08B42873A5A60088BA8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB08B52873A5A60088BA8F /* ChallengeDieResult.swift */,
+				1ABB08B62873A5A60088BA8F /* Division.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +371,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAB8CCD2873A539008A2AC6 /* ContentView.swift in Sources */,
+				1ABB08C32873A5A60088BA8F /* ChallengeDieResultView.swift in Sources */,
+				1ABB08B92873A5A60088BA8F /* RandomRollGenerator.swift in Sources */,
+				1ABB08BD2873A5A60088BA8F /* DiceRollView.swift in Sources */,
 				1AAB8CCB2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */,
+				1ABB08BB2873A5A60088BA8F /* ChallengeDie.swift in Sources */,
+				1ABB08CB2873A5A60088BA8F /* Division.swift in Sources */,
+				1ABB08C52873A5A60088BA8F /* ContentView.swift in Sources */,
+				1ABB08C92873A5A60088BA8F /* ChallengeDieResult.swift in Sources */,
+				1ABB08C12873A5A60088BA8F /* DieView.swift in Sources */,
+				1ABB08C72873A5A60088BA8F /* DiceChooserView.swift in Sources */,
+				1ABB08B72873A5A60088BA8F /* RollGenerator.swift in Sources */,
+				1ABB08BF2873A5A60088BA8F /* DieFaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +390,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAB8CCE2873A539008A2AC6 /* ContentView.swift in Sources */,
+				1ABB08C42873A5A60088BA8F /* ChallengeDieResultView.swift in Sources */,
+				1ABB08BA2873A5A60088BA8F /* RandomRollGenerator.swift in Sources */,
+				1ABB08BE2873A5A60088BA8F /* DiceRollView.swift in Sources */,
 				1AAB8CCC2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */,
+				1ABB08BC2873A5A60088BA8F /* ChallengeDie.swift in Sources */,
+				1ABB08CC2873A5A60088BA8F /* Division.swift in Sources */,
+				1ABB08C62873A5A60088BA8F /* ContentView.swift in Sources */,
+				1ABB08CA2873A5A60088BA8F /* ChallengeDieResult.swift in Sources */,
+				1ABB08C22873A5A60088BA8F /* DieView.swift in Sources */,
+				1ABB08C82873A5A60088BA8F /* DiceChooserView.swift in Sources */,
+				1ABB08B82873A5A60088BA8F /* RollGenerator.swift in Sources */,
+				1ABB08C02873A5A60088BA8F /* DieFaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
