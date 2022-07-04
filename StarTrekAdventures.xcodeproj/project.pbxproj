@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAB8CBC2873A539008A2AC6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CBB2873A539008A2AC6 /* Tests_iOS.swift */; };
+		1AAB8CBE2873A539008A2AC6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CBD2873A539008A2AC6 /* Tests_iOSLaunchTests.swift */; };
+		1AAB8CC82873A539008A2AC6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CC72873A539008A2AC6 /* Tests_macOS.swift */; };
+		1AAB8CCA2873A539008A2AC6 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */; };
+		1AAB8CCB2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */; };
+		1AAB8CCC2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */; };
+		1AAB8CCD2873A539008A2AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA42873A537008A2AC6 /* ContentView.swift */; };
+		1AAB8CCE2873A539008A2AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA42873A537008A2AC6 /* ContentView.swift */; };
+		1AAB8CCF2873A539008A2AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA52873A539008A2AC6 /* Assets.xcassets */; };
+		1AAB8CD02873A539008A2AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB8CA52873A539008A2AC6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AAB8CB82873A539008A2AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAB8C9E2873A537008A2AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAB8CA92873A539008A2AC6;
+			remoteInfo = "StarTrekAdventures (iOS)";
+		};
+		1AAB8CC42873A539008A2AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAB8C9E2873A537008A2AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAB8CAF2873A539008A2AC6;
+			remoteInfo = "StarTrekAdventures (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTrekAdventuresApp.swift; sourceTree = "<group>"; };
+		1AAB8CA42873A537008A2AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AAB8CA52873A539008A2AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AAB8CAA2873A539008A2AC6 /* StarTrekAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrekAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB8CB02873A539008A2AC6 /* StarTrekAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrekAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB8CB22873A539008A2AC6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1AAB8CB72873A539008A2AC6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB8CBB2873A539008A2AC6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		1AAB8CBD2873A539008A2AC6 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		1AAB8CC32873A539008A2AC6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB8CC72873A539008A2AC6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAB8CA72873A539008A2AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CAD2873A539008A2AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CB42873A539008A2AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CC02873A539008A2AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAB8C9D2873A537008A2AC6 = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CA22873A537008A2AC6 /* Shared */,
+				1AAB8CB12873A539008A2AC6 /* macOS */,
+				1AAB8CBA2873A539008A2AC6 /* Tests iOS */,
+				1AAB8CC62873A539008A2AC6 /* Tests macOS */,
+				1AAB8CAB2873A539008A2AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AAB8CA22873A537008A2AC6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CA32873A537008A2AC6 /* StarTrekAdventuresApp.swift */,
+				1AAB8CA42873A537008A2AC6 /* ContentView.swift */,
+				1AAB8CA52873A539008A2AC6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1AAB8CAB2873A539008A2AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CAA2873A539008A2AC6 /* StarTrekAdventures.app */,
+				1AAB8CB02873A539008A2AC6 /* StarTrekAdventures.app */,
+				1AAB8CB72873A539008A2AC6 /* Tests iOS.xctest */,
+				1AAB8CC32873A539008A2AC6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AAB8CB12873A539008A2AC6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CB22873A539008A2AC6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		1AAB8CBA2873A539008A2AC6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CBB2873A539008A2AC6 /* Tests_iOS.swift */,
+				1AAB8CBD2873A539008A2AC6 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		1AAB8CC62873A539008A2AC6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB8CC72873A539008A2AC6 /* Tests_macOS.swift */,
+				1AAB8CC92873A539008A2AC6 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AAB8CA92873A539008A2AC6 /* StarTrekAdventures (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB8CD32873A539008A2AC6 /* Build configuration list for PBXNativeTarget "StarTrekAdventures (iOS)" */;
+			buildPhases = (
+				1AAB8CA62873A539008A2AC6 /* Sources */,
+				1AAB8CA72873A539008A2AC6 /* Frameworks */,
+				1AAB8CA82873A539008A2AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarTrekAdventures (iOS)";
+			productName = "StarTrekAdventures (iOS)";
+			productReference = 1AAB8CAA2873A539008A2AC6 /* StarTrekAdventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AAB8CAF2873A539008A2AC6 /* StarTrekAdventures (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB8CD62873A539008A2AC6 /* Build configuration list for PBXNativeTarget "StarTrekAdventures (macOS)" */;
+			buildPhases = (
+				1AAB8CAC2873A539008A2AC6 /* Sources */,
+				1AAB8CAD2873A539008A2AC6 /* Frameworks */,
+				1AAB8CAE2873A539008A2AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarTrekAdventures (macOS)";
+			productName = "StarTrekAdventures (macOS)";
+			productReference = 1AAB8CB02873A539008A2AC6 /* StarTrekAdventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AAB8CB62873A539008A2AC6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB8CD92873A539008A2AC6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				1AAB8CB32873A539008A2AC6 /* Sources */,
+				1AAB8CB42873A539008A2AC6 /* Frameworks */,
+				1AAB8CB52873A539008A2AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAB8CB92873A539008A2AC6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 1AAB8CB72873A539008A2AC6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1AAB8CC22873A539008A2AC6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB8CDC2873A539008A2AC6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				1AAB8CBF2873A539008A2AC6 /* Sources */,
+				1AAB8CC02873A539008A2AC6 /* Frameworks */,
+				1AAB8CC12873A539008A2AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAB8CC52873A539008A2AC6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 1AAB8CC32873A539008A2AC6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AAB8C9E2873A537008A2AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1AAB8CA92873A539008A2AC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1AAB8CAF2873A539008A2AC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1AAB8CB62873A539008A2AC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1AAB8CA92873A539008A2AC6;
+					};
+					1AAB8CC22873A539008A2AC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1AAB8CAF2873A539008A2AC6;
+					};
+				};
+			};
+			buildConfigurationList = 1AAB8CA12873A537008A2AC6 /* Build configuration list for PBXProject "StarTrekAdventures" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AAB8C9D2873A537008A2AC6;
+			productRefGroup = 1AAB8CAB2873A539008A2AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AAB8CA92873A539008A2AC6 /* StarTrekAdventures (iOS) */,
+				1AAB8CAF2873A539008A2AC6 /* StarTrekAdventures (macOS) */,
+				1AAB8CB62873A539008A2AC6 /* Tests iOS */,
+				1AAB8CC22873A539008A2AC6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AAB8CA82873A539008A2AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CCF2873A539008A2AC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CAE2873A539008A2AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CD02873A539008A2AC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CB52873A539008A2AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CC12873A539008A2AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAB8CA62873A539008A2AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CCD2873A539008A2AC6 /* ContentView.swift in Sources */,
+				1AAB8CCB2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CAC2873A539008A2AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CCE2873A539008A2AC6 /* ContentView.swift in Sources */,
+				1AAB8CCC2873A539008A2AC6 /* StarTrekAdventuresApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CB32873A539008A2AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CBE2873A539008A2AC6 /* Tests_iOSLaunchTests.swift in Sources */,
+				1AAB8CBC2873A539008A2AC6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB8CBF2873A539008A2AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8CCA2873A539008A2AC6 /* Tests_macOSLaunchTests.swift in Sources */,
+				1AAB8CC82873A539008A2AC6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AAB8CB92873A539008A2AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AAB8CA92873A539008A2AC6 /* StarTrekAdventures (iOS) */;
+			targetProxy = 1AAB8CB82873A539008A2AC6 /* PBXContainerItemProxy */;
+		};
+		1AAB8CC52873A539008A2AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AAB8CAF2873A539008A2AC6 /* StarTrekAdventures (macOS) */;
+			targetProxy = 1AAB8CC42873A539008A2AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AAB8CD12873A539008A2AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AAB8CD22873A539008A2AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1AAB8CD42873A539008A2AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesemselle.StarTrekAdventures;
+				PRODUCT_NAME = StarTrekAdventures;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AAB8CD52873A539008A2AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesemselle.StarTrekAdventures;
+				PRODUCT_NAME = StarTrekAdventures;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AAB8CD72873A539008A2AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesemselle.StarTrekAdventures;
+				PRODUCT_NAME = StarTrekAdventures;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1AAB8CD82873A539008A2AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesemselle.StarTrekAdventures;
+				PRODUCT_NAME = StarTrekAdventures;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1AAB8CDA2873A539008A2AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesemselle.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarTrekAdventures (iOS)";
+			};
+			name = Debug;
+		};
+		1AAB8CDB2873A539008A2AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesemselle.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StarTrekAdventures (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AAB8CDD2873A539008A2AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesemselle.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StarTrekAdventures (macOS)";
+			};
+			name = Debug;
+		};
+		1AAB8CDE2873A539008A2AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A6W6FX49P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesemselle.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StarTrekAdventures (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAB8CA12873A537008A2AC6 /* Build configuration list for PBXProject "StarTrekAdventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB8CD12873A539008A2AC6 /* Debug */,
+				1AAB8CD22873A539008A2AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB8CD32873A539008A2AC6 /* Build configuration list for PBXNativeTarget "StarTrekAdventures (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB8CD42873A539008A2AC6 /* Debug */,
+				1AAB8CD52873A539008A2AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB8CD62873A539008A2AC6 /* Build configuration list for PBXNativeTarget "StarTrekAdventures (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB8CD72873A539008A2AC6 /* Debug */,
+				1AAB8CD82873A539008A2AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB8CD92873A539008A2AC6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB8CDA2873A539008A2AC6 /* Debug */,
+				1AAB8CDB2873A539008A2AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB8CDC2873A539008A2AC6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB8CDD2873A539008A2AC6 /* Debug */,
+				1AAB8CDE2873A539008A2AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AAB8C9E2873A537008A2AC6 /* Project object */;
+}
